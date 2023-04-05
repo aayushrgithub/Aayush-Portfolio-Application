@@ -25,7 +25,7 @@ function FileAdderApp() {
                         without any gitch and delay.
                     </p>
                     <button className='rounded-lg bg-gradient-to-r from-red-400 to-blue-400 text-gray-100 font-bold px-8 py-2 mt-4 mr-8'>Demo</button>
-                    <button className='rounded-lg bg-gradient-to-r from-red-400 to-blue-400 text-gray-100 font-bold px-8 py-2 mt-4'>Code</button>
+                   <a href='https://github.com/aayushrgithub/FileAdder'> <button className='rounded-lg bg-gradient-to-r from-red-400 to-blue-400 text-gray-100 font-bold px-8 py-2 mt-4'>Code</button></a>
                 </div>
                 <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4 '>
                     <div className='p-2'>
