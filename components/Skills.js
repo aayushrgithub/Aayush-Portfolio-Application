@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
+
 
 function Skills() {
     return (
@@ -12,7 +12,7 @@ function Skills() {
                     <div className='rounded-xl p-6 shadow-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src='/../public/assets/html.png' width='64' height='64' />
+                                <img src='https://velog.velcdn.com/images/cj98123/post/0536577d-9dbf-4f59-b87f-6e12a80dca21/image.jpeg' width='64' height='64' />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <p className='text-2xl font-bold'>HTML</p>
@@ -23,7 +23,7 @@ function Skills() {
                     <div className='rounded-xl p-6 shadow-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src='/../public/assets/css.png' width='64' height='64' />
+                                <img src='https://blog.leonhassan.co.uk/content/images/2019/09/css3.svg' width='64' height='64' />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <p className='text-2xl font-bold'>CSS</p>
@@ -34,7 +34,7 @@ function Skills() {
                     <div className='rounded-xl p-6 shadow-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src='/../public/assets/javascript.png' width='64' height='64' />
+                                <img src='https://1000logos.net/wp-content/uploads/2020/09/JavaScript-Logo.png' width='64' height='64' />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <p className='text-2xl font-bold'>JAVASCRIPT</p>
@@ -45,7 +45,7 @@ function Skills() {
                     <div className='rounded-xl p-6 shadow-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src='/../public/assets/react.png' width='64' height='64' />
+                                <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png' width='64' height='64' />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <p className='text-2xl font-bold'>REACT</p>
@@ -56,7 +56,7 @@ function Skills() {
                     <div className='rounded-xl p-6 shadow-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src='/../public/assets/tailwind.png' width='64' height='64' />
+                                <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png' width='64' height='64' />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <p className='text-2xl font-bold'>TAILWIND</p>
@@ -67,7 +67,7 @@ function Skills() {
                     <div className='rounded-xl p-6 shadow-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src='/../public/assets/firebase.jpg' width='64' height='64' />
+                                <img src='https://avatars.githubusercontent.com/u/1335026?s=280&v=4' width='64' height='64' />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <p className='text-2xl font-bold'>FIREBASE</p>
@@ -78,7 +78,7 @@ function Skills() {
                     <div className='rounded-xl p-6 shadow-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src='/../public/assets/mongo.png' width='64' height='64' />
+                                <img src='https://w7.pngwing.com/pngs/956/695/png-transparent-mongodb-original-wordmark-logo-icon-thumbnail.png' width='64' height='64' />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <p className='text-2xl font-bold'>MONGO</p>
@@ -89,7 +89,7 @@ function Skills() {
                     <div className='rounded-xl p-6 shadow-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src='/../public/assets/node.png' width='64' height='64' />
+                                <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png' width='64' height='64' />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <p className='text-2xl font-bold'>NODEJS</p>

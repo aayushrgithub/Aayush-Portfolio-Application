@@ -1,6 +1,4 @@
 import React from 'react'
-import AmazonImage from '../public/assets/amazon1.png'
-import Image from 'next/image'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -9,7 +7,7 @@ function property() {
     <div className='w-full'>
       <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10' />
-        <Image className='absolute z-1' layout='fill' objectFit='cover' src={AmazonImage} />
+        <img className='w-full absolute z-1 h-72 object-cover' src='https://i.stack.imgur.com/gNTbn.jpg' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10'>
           <p className='py-2 text-4xl font-bold'>Amazon Clone</p>
           <p className='text-2xl'>ReactJS | Tailwind | Javascript</p>

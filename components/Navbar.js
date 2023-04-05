@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import Image from 'next/image'
 import Link from 'next/link'
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
@@ -41,7 +40,7 @@ function Navbar() {
     return (
         <div style={{ backgroundColor: `${navBg}` }} className={shadow ? 'fixed w-full h-20 shadow-xl z-50' : 'fixed w-full h-20 z-50'}>
             <div className='flex justify-between items-center px-2'>
-                <Image src='/../public/assets/logo.png' width={85} height={50} />
+                <img src='https://github.com/aayushrgithub/DEMO/blob/main/logo.PNG?raw=true' width={85} height={50} />
                 <div style={{ color: `${linkColor}` }} className='hidden md:flex'>
                     <Link href='/'><div className='ml-10'>Home</div></Link>
                     <Link href='/#about'><div className='ml-10'>About</div></Link>
@@ -59,7 +58,7 @@ function Navbar() {
                     : 'fixed left-[-100%] top-0 ease-in duration-500'}>
                     <div>
                         <div className='flex w-full items-center justify-between'>
-                            <Image src='/../public/assets/logo.png' width={85} height={30} />
+                            <img src='https://github.com/aayushrgithub/DEMO/blob/main/logo.PNG?raw=true' width={85} height={30} />
                             <div onClick={handleNav} className='mr-10 rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                                 <AiOutlineClose />
                             </div>

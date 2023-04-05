@@ -2,14 +2,14 @@ import React from 'react'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-function RoutineAdderApp() {
+function music() {
     return (
         <div className='w-full'>
             <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
                 <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10' />
-                <img className='w-full absolute z-1 h-72 object-cover' src='https://2672686a4cf38e8c2458-2712e00ea34e3076747650c92426bbb5.ssl.cf1.rackcdn.com/2019-04-29-12-53-47.jpeg' />
+                <img className='w-full absolute z-1 h-72 object-cover' src='https://www.androidauthority.com/wp-content/uploads/2021/05/Rocket-Player-screenshot-2022.jpg' />
                 <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10'>
-                    <p className='py-2 text-4xl font-bold'>Routine Adder Web App</p>
+                    <p className='py-2 text-4xl font-bold'>Spotify Clone</p>
                     <p className='text-2xl'>ReactJS | Tailwind | Javascript</p>
                 </div>
             </div>
@@ -19,10 +19,8 @@ function RoutineAdderApp() {
                 <div className='col-span-4'>
                     <p className='text-xl font-bold'>Project</p>
                     <p className='text-2xl font-bold'>Overview</p>
-                    <p>On the Routine app, save information that is not actionable as notes. Organize those notes hierarchically through pages or enrich existing tasks, events, and contacts with a descriptive note.
-                        Embed media (photos, videos, etc.) in your notes and even regular/recurrent tasks, which you can plan just like any other task in Routine.
-                        Define your ideal schedule via rituals (meetings, focus, etc.). Then, let Routine protect your agenda against intrusions and optimize your time through smart scheduling.
-                        Go through your day's schedule, ignore the events you will not attend, pick a small number of tasks to work on, and block time for the most important ones.
+                    <p>Spotify clone is a music streaming platform that helps you gain an advantage in the lucrative streaming industry. An app similar to Spotify helps you offer millions of songs of different genres to users.
+                        An app similar to Spotify makes music streaming and podcasting easier. It helps you upload, manage, and remove any streaming content. Amazing features and functionalities of our music streaming platform help you provide an improved experience to users.
                     </p>
                     <button className='rounded-lg bg-gradient-to-r from-red-400 to-blue-400 text-gray-100 font-bold px-8 py-2 mt-4 mr-8'>Demo</button>
                     <button className='rounded-lg bg-gradient-to-r from-red-400 to-blue-400 text-gray-100 font-bold px-8 py-2 mt-4'>Code</button>
@@ -45,4 +43,4 @@ function RoutineAdderApp() {
     )
 }
 
-export default RoutineAdderApp
+export default music
